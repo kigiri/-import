@@ -1,6 +1,6 @@
 # -import
 draft for simple import lib for browser console
-```
+```js
 var $import = (function () {
   function getJSON(url, cb) {
     var xhr = new XMLHttpRequest();
@@ -51,6 +51,6 @@ var $import = (function () {
 })();
 ```
 # Usage :
-```
+```js
 $import('lodash');
 ```
